@@ -1,2 +1,2 @@
 # allCourses
- Armazem de todos os meus arquivos de estudos
+ Armazém de todos os meus arquivos de estudos
