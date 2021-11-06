@@ -7,7 +7,8 @@ def leiaint(msg):
         try:
             num = int(input(msg))
         except ValueError:
-            print('\033[31mERROR, valor inválido, Digite somente números inteiro: \033[m')
+            print(
+                '\033[31mERROR, valor inválido, Digite somente números inteiro: \033[m')
             continue   # continue volta para o loop
         except KeyboardInterrupt:
             print('Programa finalizado com sucesso!')
@@ -21,7 +22,8 @@ def leiafloat(msg):
         try:
             num = float(input(msg))
         except ValueError:
-            print('\033[31mERROR, valor inválido, Digite somente números inteiro: \033[m')
+            print(
+                '\033[31mERROR, valor inválido, Digite somente números inteiro: \033[m')
             continue
         else:
             return num
