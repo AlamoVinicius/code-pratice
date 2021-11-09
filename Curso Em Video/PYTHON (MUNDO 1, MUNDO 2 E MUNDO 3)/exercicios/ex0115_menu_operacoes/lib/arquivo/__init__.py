@@ -1,4 +1,4 @@
-from exercicios.ex0115_menu_operacoes.lib.interface import *
+from interface import *
 
 
 def arq_existe(nome):
