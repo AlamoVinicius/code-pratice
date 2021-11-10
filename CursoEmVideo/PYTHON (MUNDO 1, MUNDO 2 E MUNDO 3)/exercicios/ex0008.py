@@ -1,7 +1,0 @@
-medida_em_metros = float(input('Digite a qtde de metros: '))
-km = float( medida_em_metros / 1000)
-hm = float(medida_em_metros / 100)
-dam = float(medida_em_metros / 10)
-dm = float(medida_em_metros * 10)
-print(f'{km}km\n{hm}hm\n{dam}dam\n{dm}dm')
-print(f'{medida_em_metros * 100}cm\n{medida_em_metros * 1000}mm')
