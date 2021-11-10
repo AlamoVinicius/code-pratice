@@ -1,0 +1,11 @@
+login = input('nome de usuario: ')
+senha = input('senha de usuario: ')
+enedereço_de_gmail = input('insira o e-mail aqui: ')
+cpf = int(input('insira o seu cpf pfv: '))
+while cpf > 9999 or cpf < 1111:   # supondo que cpf tenha 4 números
+    cpf = int(input('numero invalido\nDigite um número válido: '))
+print('=====confirme seus dados=======')
+print('login: ', login)
+print('senha: ', senha)
+print('Endereço de e-mail: ', enedereço_de_gmail)
+print('apenas confirmando seu cpf: ', cpf)
