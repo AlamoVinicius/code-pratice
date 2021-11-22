@@ -1,0 +1,3 @@
+Maria Eduarda;5
+alamo;26
+joao;22
