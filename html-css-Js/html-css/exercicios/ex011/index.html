@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Ao abrir o site em diversos dispositivos a imagem será redimensionada automaticamente.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.jpg" type="image/jpg">
+        <img src="imagens/imagem-g.jpg" alt="imagem flexivel" title="por do sol">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Exemplo de inserção de áudio em um arquivo pdl, neste primeiro exemplo eu me gravei dizendo as ultimas palavras do personagem ragnar loothbrook em vikins.</p>
+    <audio src="midia/ragnar-last-words.mp3" type="audio/mpeg" preload="metadata" controls ></audio>
+    <p>Um pequeno diálogo feito por mim em inglês </p>
+    <audio src="midia/pequeno-dialogo.mp3" preload="metadata" type=audio/mpeg controls></audio>
+
+</body>
+</html>
