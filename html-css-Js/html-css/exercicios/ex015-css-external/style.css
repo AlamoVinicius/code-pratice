@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Regra @charset "UTF-8; caso haja problemas com pontuação */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+h1 {
+    font-family: fantasy;
+    color: yellow;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+p {
+    text-align: justify;
+}
