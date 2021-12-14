@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    height: 100%;
+}
+
+body {
+    /* repare que eu posso usar porcentagem para definir as cores */
+    background-image: linear-gradient(45deg, #a302a394, #f0c2f094);
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #1D5700;
+}
