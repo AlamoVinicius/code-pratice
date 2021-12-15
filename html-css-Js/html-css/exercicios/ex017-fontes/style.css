@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: rgba(11, 238, 11, 0.842);
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgba(49, 49, 49, 0.849);
+  background-color: #E012CD;
+}
+h2 {
+  font-family: fantasy;
+}
+
+p {
+  text-align: justify;
+}

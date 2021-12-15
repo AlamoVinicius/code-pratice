@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+body {
+    background-image: linear-gradient(to left, rgb(253, 203, 203), rgb(148, 132, 132));
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgb(129, 127, 127);
+    font-weight: normal;
+}
+h2 {
+    font-family: fantasy;
+    color: rgb(53, 53, 53);
+    font-size: 2em;
+    text-decoration: underline;
+    text-shadow: 1px 1px 3px rgb(41, 40, 40);
+    font-weight: normal;
+}
+p {
+    background-color: white;
+    text-align: justify;
+}
