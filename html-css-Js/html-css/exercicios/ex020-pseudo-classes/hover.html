@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div>p {
+            display: none;
+        }
+
+        div:hover>p {
+            font-family: fantasy;
+            font-size: 3em;
+            display: block;
+            color: white;
+            background-color: black;
+            width: 660px;
+        }
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>Surpesa!!! homem lindo a baixo :) <br> <img src="images/minha foto p usar em perfil..jpg" alt="minha imagem"></p>
+    </div>
+    <p>fim do exemplo</p>
+</body>
+
+</html>
