@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1 {
+    border-style: solid;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+
+    border: 10px solid darkslategray;
+
+    padding: 10px;
+
+    margin: 10px auto 20px auto;
+
+    outline: 5px dashed salmon;
+}
+
+a {
+    border-style: double;
+    background-color: lightgrey;
+    border-width: 10px;
+
+}
