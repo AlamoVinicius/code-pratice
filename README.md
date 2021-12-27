@@ -6,4 +6,5 @@
 - Curso de Python FIAP [clique aqui](https://github.com/AlamoVinicius/allCourses/tree/main/FIAP%20-%20python).
 
 ### __HTML/CSS/JAVASCRIPT__
-- Site completo desenvolvido junto ao CursoemVideo [clique qui](https://github.com/AlamoVinicius/allCourses/blob/main/html-css-Js/html-css/desafios/desafio-d010-site-android/androidcomJs.html)
+- Curso em Vídeo HTML/CSS/JAVASCRIPT [clique aqui](https://github.com/AlamoVinicius/allCourses/tree/main/html-css-Js/html-css).
+- Site completo desenvolvido junto ao CursoemVideo [clique qui](https://github.com/AlamoVinicius/allCourses/blob/main/html-css-Js/html-css/desafios/desafio-d010-site-android/androidcomJs.html).
