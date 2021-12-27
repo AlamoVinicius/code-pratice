@@ -7,4 +7,4 @@
 
 ### __HTML/CSS/JAVASCRIPT__
 - Curso em Vídeo HTML/CSS/JAVASCRIPT [clique aqui](https://github.com/AlamoVinicius/allCourses/tree/main/html-css-Js/html-css).
-- Site completo desenvolvido junto ao CursoemVideo [clique qui](https://github.com/AlamoVinicius/allCourses/blob/main/html-css-Js/html-css/desafios/desafio-d010-site-android/androidcomJs.html).
+- Site completo desenvolvido junto ao CursoemVideo [clique qui](https://artigo-mascote-android.alamovinicius.repl.co).
