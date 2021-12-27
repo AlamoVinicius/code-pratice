@@ -187,7 +187,18 @@ aside > h2 {
     padding: 10px;
 }
 
-aside > ul {
+#bmm{
+    font-weight: normal;
+    border-radius: 5px;
+    background-color: var(--cor2);
+    text-align: left;
+    font-size: 0.75em;
+    color: white;
+    padding: 10px;
+}
+
+
+ul {
     list-style-type: '\2714\0020\0020'; /* código de check do site emojepedia.org, o código 0020 significa espaço*/
     columns: 2;
     list-style-position: inside;
