@@ -1,0 +1,5 @@
+body {
+    height: 100vh; /* 100% da viewport essa medida*/
+    background-image: url(images/wallpaper005.jpg);
+    background-position: center top; /*com essa configuração eu posso definir o ponto de ancoragem do meu backgroun*/
+}

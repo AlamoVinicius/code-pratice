@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(images/pattern002.png); /* posso usar aqui qualquer url de uma imagem da web também*/
+    background-size: 100px 100px; /* aqui configuro o tamanho do size do background*/
+    background-repeat: repeat; /* aqui se configura o padrão de repetição da imagem de fundo, por padrão é o repeat, mas existem outros como no-repat e repeat-x por exemplo*/ 
+}
