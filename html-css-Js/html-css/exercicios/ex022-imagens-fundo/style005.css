@@ -1,0 +1,20 @@
+/*Ajuste para melhorar a imagem de fundo */
+
+body {
+    height: 100vh;
+    background-color: black; /* mesmo com imagem de fundo é sempre recomendavel colocar uma cor de fundo*/
+    background-image: url(images/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;   /* pcontainer = que ira forçar 100% da exibição da imagem*/
+                              /* cover = irá cobrir a imagem sem distorcer no fundo */
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
