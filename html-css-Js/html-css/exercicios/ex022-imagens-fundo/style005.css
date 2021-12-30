@@ -1,13 +1,21 @@
 /*Ajuste para melhorar a imagem de fundo */
 
 body {
-    height: 100vh;
-    background-color: black; /* mesmo com imagem de fundo é sempre recomendavel colocar uma cor de fundo*/
+    /*height: 100vh;
+    background-color: black;  mesmo com imagem de fundo é sempre recomendavel colocar uma cor de fundo
     background-image: url(images/wallpaper002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;   /* pcontainer = que ira forçar 100% da exibição da imagem*/
-                              /* cover = irá cobrir a imagem sem distorcer no fundo */
+    background-size: cover;    pcontainer = que ira forçar 100% da exibição da imagem
+                               cover = irá cobrir a imagem sem distorcer no fundo 
+    background-attachment: fixed;  Com essa configuração o conteudo fica fixo*/
+    /* Shorthand - background
+    ordem: color > imagen > position > repeat > [size] > attachment
+    */
+
+    background: black url(images/wallpaper002.jpg) center center no-repeat fixed; /* obs: por algum motivo o size não esta funcionando na shorthand mesmo estando na documentação oficial.*/
+    background-size: cover;
+
 }
 
 main {

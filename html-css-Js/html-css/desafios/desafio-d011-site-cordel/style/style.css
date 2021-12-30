@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Rouge Script', cursive;
+    --fonte03: 'Patrick Hand', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+h1 {
+    font-family: var(--fonte02);
+    font-weight: normal;
+    font-size: 10vw;
+    text-align: center;
+    text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.705);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font: bolder 1em Arial;
+}
+
+header {
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+header p {
+    padding-top: 14px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+section {
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3vw;
+    font-family: var(--fonte03);
+}
+
+#withflower {
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 5px 2px #0000007d;
+}
+
+#withflower p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+    padding: 3%;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.562);
+}
+
+#withmanuscript {
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 5px 2px #0000007d;
+}
+
+#withmanuscript p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+    padding: 3%;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.233);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1vh;
+    font-size: 1.5vw;
+}

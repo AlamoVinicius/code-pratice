@@ -1,0 +1,21 @@
+#container {
+    background-image: url(images/target001.png);
+    background-size: 100%100%;
+    position: relative;
+    height: 500px;
+    background-color: purple;
+    padding: 10px;
+}
+/* para posicionar usamos o relative e absolute, e left e right no conteudo */
+#conteudo {
+    position: absolute; 
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    left: 50%;
+    top: 50%;
+    background-image: url(images/target001.png);
+    background-size: 100%100%;
+
+    transform: translate(-50% ,-50%); /*Use o transform para centralizar a imagem ou alterar a melhor maneira de acordo com o projeto, aqui eu tenho que usar virgula e posso usar qualquer medida disponível */
+}
