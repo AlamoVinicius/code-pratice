@@ -34,6 +34,11 @@ a {
     font: bolder 1em Arial;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+
 header {
     padding: 50px;
     background-color: black;
@@ -49,11 +54,11 @@ header p {
 
 section {
     background-color: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: var(--fonte03);
 }
 
