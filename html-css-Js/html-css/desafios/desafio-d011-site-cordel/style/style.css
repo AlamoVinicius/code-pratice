@@ -62,13 +62,17 @@ section {
     font-family: var(--fonte03);
 }
 
+section p {
+    padding-bottom: 2em;
+}
+
 #withflower {
     background-image: url(../imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
-    box-shadow: inset 2px 2px 5px 2px #0000007d;
+    box-shadow: inset 6px 6px 13px 0px #0000007d;
 }
 
 #withflower p {
@@ -85,7 +89,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    box-shadow: inset 2px 2px 5px 2px #0000007d;
+    box-shadow: inset 6px 6px 13px 0px #0000007d;
 }
 
 #withmanuscript p {
