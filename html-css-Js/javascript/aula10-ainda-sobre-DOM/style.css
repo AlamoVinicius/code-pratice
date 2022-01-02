@@ -1,0 +1,14 @@
+@charset "UTF_8";
+
+#area {
+    font: normal 1.5em Arial;
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: darkmagenta;
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.479);
+}
+
+

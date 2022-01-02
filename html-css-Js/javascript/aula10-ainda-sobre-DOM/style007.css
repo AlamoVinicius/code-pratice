@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font: normal 1em Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+#mybutton {
+    background-color: lightgray;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.432);
+    transition-duration: .5s;
+}
+
+#mybutton:hover {
+    background-color: gray;
+    color: white;
+}
+
+#res {
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 100px;
+    padding: 5px;
+    margin-top: 50px;
+    border: solid black;
+    box-shadow: inset -2px 2px 3px rgba(0, 0, 0, 0.61);
+}
