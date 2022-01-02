@@ -1,5 +1,5 @@
 var nome = window.prompt('Escreva seu nome: ')
-document.write(`<h1>Olá <strong>${nome}</strong>!</h1>, <p>seu nome tem ${nome.length} letras<br>`)
+document.write(`<h1>Olá ${nome}!</h1>, <p>seu nome tem ${nome.length} letras<br>`)
 document.write(`Escrevendo seu nome em Upper case: ${nome.toUpperCase()}</p>`)  //função para transformar em str maiuscula
 /* 
 n1.Tofixed(2) = converte para 2 casas reais em um dado float
