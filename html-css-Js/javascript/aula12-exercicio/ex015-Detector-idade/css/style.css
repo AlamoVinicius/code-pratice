@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
 
 html, body {
     margin: 0;
@@ -10,7 +9,13 @@ html, body {
 }
 
 body {
+    background-color: rgb(132, 132, 248);
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/25/02/13/abstract-1278077_960_720.jpg);
     font: normal 1em Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 header {
@@ -18,15 +23,9 @@ header {
     text-align: center;
 }
 
-h1 {
-    font-family: 'Euphoria Script', cursive;
-    font-size: 4em;
-    font-weight: normal;
-    text-shadow: 3px 4px 3px rgba(255, 255, 255, 0.507);
-}
-
 section {
-    min-height: 280px;
+    min-height: 200px;
+    height: 420px;
     max-width: 80vw;
     background-color: white;
     padding: 20px;
@@ -36,20 +35,6 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.774);
 }
 
-div {
-    text-align: center;
-}
-
-div p {
-    text-align: justify;
-}
-
-div img {
-    border-radius: 50%;
-    width: 250px;
-    height: 200px;
-    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.774);
-}
 
 footer {
     width: 250px;
@@ -67,4 +52,5 @@ footer a {
     font-style: italic;
     text-decoration: none;
     color: white;
+    
 }

@@ -9,7 +9,7 @@ function carregar() {
     var minutes = data.getMinutes()
     var title = document.querySelector('#title')
     msg.innerHTML = `Agora são ${hours} horas e ${minutes} minutos`
-   
+
 
     if (hours >= 5 && hours < 12) {
         bodyimg.style.backgroundImage = 'url(images/manha.jpg)'
