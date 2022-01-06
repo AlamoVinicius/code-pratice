@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;  /*Zerando configurações de cc padrão*/
+}
+
+body {
+    background-color: rgb(132, 132, 248);
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/25/02/13/abstract-1278077_960_720.jpg);
+    font: normal 1em Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+form {
+    min-height: 280px;
+    max-width: 80vw;
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.774);
+}
+
+input {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#number_initial {
+    margin-left: 6px;
+    
+}
+
+#number_final {
+    margin-left: 19px;
+}
+
+input[type=button] {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 25px;
+    border: 0px;
+    cursor: pointer;
+    background-color: rgb(34, 57, 100);
+    color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.493);
+}
+
+input[type=button]:hover {
+    transition: all 0.5s ease-out;
+    background-color: rgb(60, 98, 168);
+    font-size: 1.2em;
+    transform: translatex(-3%);
+}
+
+#res {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+footer {
+    width: 550px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 10px;
+
+}
+
+
+.btn-flip {
+    opacity: 1;
+    outline: 0;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+  }
+  .btn-flip:hover:after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+  .btn-flip:hover:before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+  }
+  .btn-flip:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    color: #101011;
+    display: block;
+    transition: 0.5s;
+    position: absolute;
+    background: #adadaf;
+    content: attr(data-back);
+    transform: translateY(-50%) rotateX(90deg);
+  }
+  .btn-flip:before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    color: #d1d1d6;
+    display: block;
+    padding: 0 30px;
+    line-height: 40px;
+    transition: 0.5s;
+    position: relative;
+    background: #323237;
+    content: attr(data-front);
+    transform: translateY(0) rotateX(0);
+  }

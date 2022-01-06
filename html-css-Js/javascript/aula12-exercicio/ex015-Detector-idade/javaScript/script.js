@@ -4,7 +4,7 @@ function verificar() {
     var anonasc = document.getElementById('ano')
     var saida = document.querySelector("#saida")
 
-    if (anonasc.value == 0 || Number(anonasc.value) > anoatual) {
+    if (Number(anonasc.value) > anoatual) {
         window.alert('[erro] ano inválido')
     } else {
         var fsex = document.getElementsByName('radsex')
@@ -14,10 +14,10 @@ function verificar() {
         var img = document.createElement('img')
         if (fsex[0].checked) {
             genero = 'Homem'
-            if (idade >= 0 && idade < 12) {
+            if (idade >= 0 && idade < 14) {
                 // criança
                 img.setAttribute('src', 'images/childman.png')
-            } else if (idade < 21) {
+            } else if (idade < 22) {
                 // jovem
                 img.setAttribute('src', 'images/youngman.png')
             } else if (idade < 55) {

@@ -24,33 +24,15 @@ header {
 }
 
 section {
-    min-height: 200px;
-    height: 420px;
+    min-height: 280px;
     max-width: 80vw;
-    background-color: lightgray;
+    background-color: white;
     padding: 20px;
     width: 500px;
     margin: auto;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.774);
 }
-
-input[type=number] {
-    border: 1px solid #ccc;
-    outline: none;
-}
-
-input[type=button] {
-    width: 100%;
-    margin: auto;
-    height: 30px;
-    cursor: pointer;
-    color: white;
-    background-color: #5f7c8a;
-    border: 0;
-    border-radius: 20px;
-}
-
 
 footer {
     width: 250px;
