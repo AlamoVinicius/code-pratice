@@ -34,6 +34,21 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.774);
 }
 
+select {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 4px double black;
+    background-image: linear-gradient(to top, rgb(233, 229, 229), rgb(136, 134, 134));
+}
+
+select > option:hover{
+    transition-duration: .2s;
+    background-color: rgb(255, 254, 254);
+}
+
+
 footer {
     width: 250px;
     margin: auto;
