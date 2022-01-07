@@ -9,3 +9,4 @@
 - Curso em Vídeo HTML/CSS/JAVASCRIPT [Clique aqui](https://github.com/AlamoVinicius/allCourses/tree/main/html-css-Js/html-css).
 - Site matéria sobre o android desenvolvido no CursoemVideo <a href="https://artigo-mascote-android.alamovinicius.repl.co" target="blank">Clique aqui</a>.
 - Site projeto cordel desenvolvido <a href="https://alamovinicius.github.io/allCourses/html-css-Js/html-css/desafios/desafio-d011-site-cordel/index.html" target="blank">Clique aqui</a>.
+- Site Gerdaor de P.A (progressão artimética) personalizado [clique aqui](https://site-contador-personalizado.alamovinicius.repl.co/).
