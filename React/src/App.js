@@ -1,26 +1,22 @@
-
 import './App.css';
-import HelloWorld from './components/HelloWorld.js';
+import Frase from './components/Frase';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
-  const name = 'Álamo'  //posso criar váriaveis com react e usalos no jsx
-//posso usar funcionalidades do js no jsx também, no caso da soma
 
-  function sum(a , b) {  // posso usar também funções para reaproveitar o bloco de códigos
-    return a + b
-  }
-
-  const url = 'https://via.placeholder.com/150'
+  const name = "Michael Jackson"
 
   return (
     <div className="App">
-      <h1>Olá React</h1>
-      <p>First app made with Reactive</p>
-      <p>Ola {name}</p>
-      <p>Soma {sum(4, 7)}</p>
-      <img src={url} alt="quadrado de 150px"/>
-      <HelloWorld/>   
-    </div>
+      <h1>Inserindo CSS</h1>
+      <Frase/>
+      <Frase/>
+      <SayMyName nome='Álamo' />
+      <SayMyName nome='Jonas' />
+      <SayMyName nome={name} />
+      <Pessoa nome='Álamo' idade='26' profissao='programador' image="https://via.placeholder.com/150"/>
+    </div> //dessa forma passando a prop como nome=atr acessamos a propriedade
   );
 }
 

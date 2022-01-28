@@ -1,0 +1,10 @@
+.FraseContainer {
+    background-color: #333;
+    border: 1px solid #111;
+}
+
+.FraseContent {
+    color: white;
+    background-color: #333;
+    margin: 0;
+}
