@@ -26,7 +26,7 @@ function Condiciional() {
         <button type="submit" onClick={enviarEmail}>
           Enviar-email
         </button>
-        {userEmail && (    //checando se tem algo no userEmail se true exibi uma nova div
+        {userEmail && (    //if checando se tem algo no userEmail se true exibi uma nova div
             <div>
                 <p>o e-mail do usuário é: {userEmail}</p>
                 <button onClick={limparEmail}>Limpar E-mail</button>

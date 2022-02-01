@@ -23,7 +23,7 @@ function Form() {
             id="name"
             name="name"
             placeholder="Digite o seu nome"
-            onChange={(e) => setName(e.target.value)}   //sintaxe para usar o onChange
+            onChange={(e) => setName(e.target.value)}  //sintaxe para usar o onChange
           />
         </div>
         <div>
